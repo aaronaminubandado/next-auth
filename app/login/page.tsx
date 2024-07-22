@@ -25,6 +25,16 @@ export default function LoginPage(){
         }
     }
 
+    // const logout = async () => {
+	// 	try {
+	// 		await axios.get('/api/users/logout');
+	// 		router.push('/login');
+	// 	} catch (error: any) {
+	// 		console.log(error.message);
+			
+	// 	}
+	// }
+
     return(
         <div className="flex flex-col items-center justify-center min-h-screen py-2">
             <h1>{loading ? "Processing" : "Login"}</h1>
